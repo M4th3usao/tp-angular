@@ -1,0 +1,12 @@
+<h1>My Services</h1>
+<p>
+  Nome: <strong>{{ Name }} </strong>
+</p>
+<p>
+  RA: <strong>{{ RA }}</strong>
+</p>
+
+<a [routerLink]="['']">Home</a> | <a [routerLink]="['timer']">Timer</a> |
+<a [routerLink]="['tasks']">Tasks</a> | <a [routerLink]="['list']">List</a> |
+<a [routerLink]="['discipline']">Discipline</a>
+<router-outlet></router-outlet>
