@@ -4,6 +4,7 @@ import { DisciplineComponent } from "./components/discipline/discipline.componen
 import { HomeComponent } from "./components/home/home.component";
 import { ListComponent } from "./components/list/list.component";
 import { TasksComponent } from "./components/tasks/tasks.component";
+import { TimerLimiterComponent } from "./components/timer-limiter/timer-limiter.component";
 import { TimerComponent } from "./components/timer/timer.component";
 
 
@@ -12,7 +13,8 @@ const routes: Routes = [
     {path: 'timer', component: TimerComponent},
     {path: 'tasks', component: TasksComponent},
     {path: 'list', component: ListComponent},
-    {path: 'disciplines', component: DisciplineComponent}
+    {path: 'disciplines', component: DisciplineComponent},
+    {path: 'timer-limiter', component: TimerLimiterComponent}
 ]
 
 @NgModule({

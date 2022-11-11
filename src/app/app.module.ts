@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { ListService } from './services/list.service';
+import { TimerLimiterComponent } from './components/timer-limiter/timer-limiter.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ListService } from './services/list.service';
     TasksComponent,
     TimerComponent,
     ListComponent,
-    DisciplineComponent
+    DisciplineComponent,
+    TimerLimiterComponent
   ],
   imports: [
     BrowserModule, 
