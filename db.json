@@ -2,33 +2,39 @@
     "disciplinas": [
       {
         "id": 1,
-        "name": "Negócios e Marketing e Eletrônicos",
-        "diaDaSemana": " Terça e Quarta",
-        "time": "Terça - 20h50 \n Quarta - 19h00"
-      },
-      {
-        "id": 2,
-        "name": "Desenvolvimento para Servidores",
-        "diaDaSemana": "Quinta",
+        "name": "Desenvolvimento para Dispositivos Móveis",
+        "diaDaSemana": "Segunda",
         "time": "19h00"
       },
       {
-        "id": 3,
+        "id": 2,
         "name": "Inglês",
         "diaDaSemana": "Terça",
         "time": "19h00"
       },
       {
+        "id": 3,
+        "name": "Negócios e Marketing e Eletrônicos",
+        "diaDaSemana": " Terça e Quarta",
+        "time": "Terça - 20h50 \n Quarta - 19h00"
+      },
+      {
         "id": 4,
-        "name": "Projeto de Prototipagem e Testes de Usabilidade",
-        "diaDaSemana": "Sábado",
-        "time": "8h00"
+        "name": "Desenvolvimento para Servidores",
+        "diaDaSemana": "Quinta",
+        "time": "19h00"
       },
       {
         "id": 5,
-        "name": "Desenvolvimento para Dispositivos Móveis",
-        "diaDaSemana": "Segunda",
+        "name": "Tópicos Especiais em Sistemas para Internet",
+        "diaDaSemana": "Sexta",
         "time": "19h00"
+      },
+      {
+        "id": 6,
+        "name": "Projeto de Prototipagem e Testes de Usabilidade",
+        "diaDaSemana": "Sábado",
+        "time": "8h00"
       }
     ]
   }

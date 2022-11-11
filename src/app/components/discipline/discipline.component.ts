@@ -13,6 +13,12 @@ export class DisciplineComponent implements OnInit {
 
   disciplines: Discipline[] = [];
 
+  discipline = {
+    name: 'Marketing',
+    diaDaSemana: 'terça',
+    time: '19h00'
+  }
+
   constructor(private disciplineService: DisciplineService) { 
     this.getDisciplines()
   }
@@ -20,7 +26,6 @@ export class DisciplineComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  
   getDisciplines(): void {
     this.disciplineService.getAll().subscribe((disciplines) => (this.disciplines = disciplines));
   }
